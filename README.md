@@ -41,7 +41,7 @@ Once the code has been compiled, you can require and use the extension in irb
 
 ```
 irb> require "./greeter_wrapped"
-irb> GreeterWraped.say_hello "Bob"
+irb> Greeter.new.say_hello "Bob"
 ```
 
 ### Wrapped methods
